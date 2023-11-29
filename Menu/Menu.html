@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios Formularios</title>
+  <link rel="shortcut icon" href="./favicon.png" type="image/png">
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+  <div>
+    <form action="#" method="get">
+      <!-- PRIMERA SECCIÓN -->
+      <section>
+        <h2>Datos Personales</h2>
+        <ul class="formu">
+          <li>
+            <div>
+              <label for="name">Nombre: </label>
+              <input type="text" id="name" name="name">
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="password">Clave:</label>
+              <input type="password" id="password" name="password">
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="text">Dirección</label>
+              <input type="text" id="text" name="text">
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="telefon">Teléfono</label>
+              <input type="tel" id="telefon" name="teléfono">
+            </div>
+          </li>
+          <li>
+            <label for="colorFav">Color Favorito</label>
+            <select id="colorFav" name="colorFav">
+              <option value="">Seleccione un Color</option>
+              <option value="Azul">Azul</option>
+              <option value="Rojo">Rojo</option>
+              <option value="Verde">Verde</option>
+              <option value="Rosa">Rosa</option>
+            </select>
+          </li>
+        </ul>
+      </section>
+    
+      <!-- SEGUNDA SECCIÓN -->
+      <section>
+        <h2>País</h2>
+        <ul>
+          <li>
+            <input type="radio" id="España" name="país">
+            <label>España</label>
+          </li>
+          <li>
+            <input type="radio" id="Alemania" name="país">
+            <label>Alemania</label>
+          </li>
+          <li>
+            <input type="radio" id="Francia" name="país">
+            <label>Francia</label>
+          </li>
+        </ul>
+      </section>
+
+      <!-- TERCERA SECCIÓN -->
+      <section>
+        <h2>Tipo de comida que te gusta</h2>
+        <ul class="comida">
+          <li>
+            Asiática
+            <input type="checkbox" name="Asiática" id="Asiatica">
+          </li>
+          <li>
+            Española
+            <input type="checkbox" name="española" id="española">
+          </li>
+        </ul>
+      </section>
+
+      <!-- CUARTA SECCIÓN -->
+      <section>
+        <h2>Describe tu día perfecto</h2>
+        <textarea name="describe" id="describe" cols="50" rows="10"></textarea>
+      </section>
+
+      <!-- QUINTA SECCIÓN -->
+      <div>
+        <ul>
+          <li>
+            <button type="submit">Enviar consulta</button>
+            <button type="reset">Borrar formulario</button>
+          </li>
+        </ul>
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.formu, .pais, .comida, li{
+    list-style-type: none;
+}
+
+.formu, li {
+    margin-bottom: 15px;
+}
